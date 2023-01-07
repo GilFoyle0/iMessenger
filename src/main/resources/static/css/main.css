@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #262222;
+}
+
+.admin-btn .btn{
+    background-color: #8d38ea;
+    border: 1px solid rebeccapurple;
+}
+
+.admin-btn .btn:hover{
+    background-color: #711aea;
+}
+
+
+
+
+.allMessageInRoom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.messageInRoom {
+    margin-left: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-logout {
+    margin-top: 11px;
+    margin-left: auto;
+}
+
+.container-fluid{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+
+.messageInRoomText {
+    color: white;
+}
+
+.hidden {
+}
